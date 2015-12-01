@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+/*html, body {*/
+margin: 0px;
+padding: 0px;
+}
+.blue-box {
+  background-color: #4A90E2;
+  width: 100px;
+  height: 100px;
+
+  text-align: center;
+  /*font-size: 40px;*/
+  /*line-height: 300px;*/
+}
+.header {
+  background-color: grey;
+
+}
+.row {
+  width: 100vh;
+  height: calc(1000px / 5);
+  float: left;
+}
+
+.top-white {
+  background-color: white;
+}
+
+.2nd-blue {
+  background-color: blue;
+}
+.3rd-teal {
+  background-color: teal;
+}
+.4th-green {
+  background-color: green;
+}
+.5th-yellow {
+  background-color: yellow;
+}
