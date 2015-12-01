@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  /*box sizing height and width is now the size of the box not content inside*/
+}
+
+body {
+  /*background-color: #FFAA2B;*/
+  margin: 0px
+}
+header {
+  background-color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 20px;
+}
+#orange-box {
+  background-color: black;
+}
+.left {
+  background-color: #FFAA2B;
+  width: 50%;
+  height: 750px;
+  float: left;
+  text-align: center;
+  padding-top: 25%;
+}
+
+.right {
+  width: 50%;
+  height: 750px;
+  float: right;
+  background-image: url("https://images.unsplash.com/photo-1426287658398-5a912ce1ed0a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=ee538399b8d3a528f6607c6325c7a265");
+  background-size: cover;
+}
+
+button {
+  padding: 10px 5px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  background-color: #FFAA2B;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
